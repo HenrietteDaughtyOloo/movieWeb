@@ -51,7 +51,7 @@ const Navigate = ()=>{
                             {searchResults.map((movie) =>(
                                 <div key={movie.id} className="search-result">
                                     <img 
-                                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} url={`${movie.poster_path}`}                                    
+                                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.poster_path}`}                                    
                                     />
                                     <h2>{movie.title}</h2>
                                     <p>{movie.overview}</p>
