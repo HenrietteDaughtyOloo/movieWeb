@@ -1,0 +1,14 @@
+.image-container{
+    width: 80%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 13%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: black;
+}
