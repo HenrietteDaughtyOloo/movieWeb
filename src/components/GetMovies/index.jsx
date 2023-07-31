@@ -19,6 +19,7 @@ const GetMovies = ()=>{
             console.log({movies});
             setLoading(false);
             setMovies(movies.results);
+            console.log(IMAGE_BASE_URL)
         })();
     },[]);
 

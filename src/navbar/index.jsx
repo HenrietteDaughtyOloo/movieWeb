@@ -37,7 +37,7 @@ const Navigate = ()=>{
 
                 <div className="links">
 
-                    <li><a className="home" href="#">Home</a></li>
+                    <li><a className="home" href="index.jsx">Home</a></li>
                     <li className="home">My list</li>
                     <li><button className="sign-in">Sign In</button></li>
 
@@ -51,7 +51,7 @@ const Navigate = ()=>{
                             {searchResults.map((movie) =>(
                                 <div key={movie.id} className="search-result">
                                     <img 
-                                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}                                    
+                                    src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} url={`${movie.poster_path}`}                                    
                                     />
                                     <h2>{movie.title}</h2>
                                     <p>{movie.overview}</p>
